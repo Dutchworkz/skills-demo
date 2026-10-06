@@ -1,6 +1,6 @@
 {
   "name": "dutchworkz-dotnet",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Dutchworkz .NET-conventies: code-review, xUnit-unit-tests en een auto-format hook na elke C#-edit.",
   "skills": ["./skills/"]
 }

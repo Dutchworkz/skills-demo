@@ -1,7 +1,7 @@
 ---
 name: unit-tests
 version: 1.2.0
-description: Schrijft .NET unit tests volgens de Dutchworkz-conventies. Gebruik bij het schrijven, genereren, aanvullen of reviewen van unit tests, testklassen of test coverage voor C#-code. Werkt samen met de test-driven-development skill van superpowers — die levert de RED-GREEN-REFACTOR cyclus, deze skill levert het format.
+description: Gebruik bij het schrijven, aanvullen of reviewen van .NET-unit tests volgens de Dutchworkz-conventies.
 ---
 
 # Unit tests volgens Dutchworkz-conventies
@@ -24,6 +24,7 @@ Pas deze conventies toe wanneer je unit tests schrijft of reviewt voor C#-code.
 
 ## Regels
 
+- Gebruik vóór het schrijven van tests de Superpowers-skill `test-driven-development` en volg de RED-GREEN-REFACTOR-cyclus; deze skill bepaalt de Dutchworkz-conventies voor de testopmaak.
 - Eén logische assert per test; meerdere `Should()`-aanroepen op hetzelfde resultaatobject zijn toegestaan.
 - Geen magic strings of numbers: gebruik betekenisvolle constanten in de test.
 - Test gedrag, geen implementatie: verifieer alleen interacties met mocks als de interactie zélf het contract is.
